@@ -1,14 +1,8 @@
-import datetime
 import time
 import os
-import random
-from dateutil import parser
 from steem import Steem
 from steem.account import Account
 from steem.amount import Amount
-from steem.post import Post
-from steem.commit import Commit
-from steem.blog import Blog
 from steem.transactionbuilder import TransactionBuilder
 from steembase import operations
 
